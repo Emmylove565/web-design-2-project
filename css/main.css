@@ -1,0 +1,350 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5rem;
+  background-color: #ffffff;
+}
+
+img {
+  width: 100%;
+}
+
+.logo{
+  width: 200px;
+  text-align: left;
+}
+
+.wrapper {
+  max-height: 100px;
+  margin: 0 auto;
+  padding: 0 .5rem;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ol {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0rem 1rem;
+}
+
+nav ol li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav ol li a:hover,
+nav ol li a:focus {
+  text-decoration: none;
+  color: #A82727;
+}
+
+main {
+  padding: 1rem 1rem 1rem 1rem;
+  background-color:;
+  margin-top:rem;
+}
+
+.hero-banner {
+  width: 100%;
+  height: 300px;
+  background-color: #000;
+  background-image: url("../assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.home-button {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+.home-button a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 64px;
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.home-button a:hover {
+  text-decoration: none;
+  color: #A82727;
+}
+
+.sticker-button {
+  background-image: url("../assets/stickers.jpg");
+  padding: 100px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.print-button {
+  background-image: url("../assets/prints.jpg");
+  padding: 100px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.about-home {
+  background-color: #000000;
+  padding: 1rem;
+  align-items: center;
+  padding-bottom: 2rem;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 64px;
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.home-pic {
+  text-align: center;
+}
+
+.home-about-pic {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.about-type p {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'ff-tisa-web-pro', serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.about-button {
+  background-color: #A82727;
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  border: 15px solid #A82727;
+  border-radius: .3rem;
+  transition: all .3s linear;
+  text-decoration: none;
+}
+
+.about-button:hover {
+  color: #000000;
+  border: 15px solid #A82727;
+  border-radius: .5rem;
+  text-decoration: none;
+}
+
+
+
+.shop-stickers-banner {
+  background-image: url("../assets/stickers.jpg");
+  padding: 75px;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.shop-prints-banner {
+  background-image: url("../assets/prints.jpg");
+  padding: 75px;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.shop-prints-banner h2 {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 64px;
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.shop-stickers-banner h2 {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 64px;
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 2rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.shop-grid article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shop-grid article > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.item-names {
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-size: 32px;
+  color: #000000;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+.price {
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-size: 24px;
+  color: #A82727;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 15px solid #000000;
+  border-radius: .3rem;
+  transition: all .3s linear;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #A82727;
+  color: #FFFFFF;
+  border: 15px solid #A82727;
+  border-radius: .5rem;
+  text-decoration: none;
+}
+
+
+
+.about-page {
+  margin: 1rem;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.about-page h2 {
+  font-size: 64px;
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about-page p {
+  font-size: 16px;
+  font-family: 'ff-tisa-web-pro', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about-page-pic {
+  padding-top: 2rem;
+}
+
+
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 1rem 1rem .5rem 1rem;
+}
+
+label {
+  font-size: 32px;
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-submit {
+  display: flex;
+  margin-top: .5rem;
+}
+
+.form-button {
+  background-color: #A82727;
+  border-color: #A82727;
+  font-size: 16px;
+  font-family: 'cheap-pine-sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  transition: all .3s linear;
+}
+
+.form-button:hover {
+  color: #000000;
+}
+
+.form-text {
+  color: #818181;
+  font-family: 'ff-tisa-web-pro', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer ol {
+  margin-top: 0rem;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  font-size: 16px;
+  font-family: 'ff-tisa-web-pro', serif;
+  font-weight: 400;
+  font-style: normal;
+}
