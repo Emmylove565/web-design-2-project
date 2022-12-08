@@ -368,7 +368,7 @@ nav ol li a {
 }
 
 .hero-banner {
-  height: 400px;
+  height: 600px;
 }
 
 .art-buttons {
@@ -446,7 +446,22 @@ label {
 @media only screen and (min-width: 1280px) {
 
 .hero-banner {
-  height: 700px;
+  height: 900px;
+}
+
+.home-button a {
+  font-size: 128px;
+
+}
+
+.sticker-button {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.print-button {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 
