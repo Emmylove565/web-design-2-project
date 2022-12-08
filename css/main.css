@@ -273,6 +273,7 @@ h3 {
   font-family: 'cheap-pine-sans', sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin-top: 1rem;
 }
 
 .about-page p {
@@ -410,7 +411,7 @@ h3 {
 }
 
 .item-names {
-  font-size: 40px;
+  font-size: 52px;
 }
 
 .price {
@@ -419,18 +420,7 @@ h3 {
 
 .button {
   font-size: 32px;
-
-
 }
-
-
-
-
-
-
-
-
-
 
 
 footer {
@@ -449,26 +439,15 @@ label {
   padding-right: 4rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
 
 @media only screen and (min-width: 1280px) {
 
-
+.hero-banner {
+  height: 700px;
+}
 
 
 
