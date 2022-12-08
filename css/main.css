@@ -166,8 +166,6 @@ h3 {
   text-decoration: none;
 }
 
-
-
 .shop-stickers-banner {
   background-image: url("../assets/stickers.jpg");
   padding: 75px;
@@ -258,8 +256,6 @@ h3 {
   text-decoration: none;
 }
 
-
-
 .about-page {
   margin: 1rem;
   background-color: #000000;
@@ -284,8 +280,6 @@ h3 {
 .about-page-pic {
   padding-top: 2rem;
 }
-
-
 
 footer {
   background-color: #000000;
@@ -349,216 +343,199 @@ footer p {
 
 @media only screen and (min-width: 768px) {
 
-.logo {
-  width: 300px;
-}
+  .logo {
+    width: 300px;
+  }
 
-.wrapper {
-  max-height: 125px;
-}
+  .wrapper {
+    max-height: 125px;
+  }
 
-nav ol {
-  gap: 1.5rem;
-}
+  nav ol {
+    gap: 1.5rem;
+  }
 
-nav ol li a {
-  font-size: 34px;
-}
+  nav ol li a {
+    font-size: 34px;
+  }
 
-.hero-banner {
-  height: 600px;
-}
+  .hero-banner {
+    height: 600px;
+  }
 
-.art-buttons {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  gap: 2rem 2rem;
-}
+  .art-buttons {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 2rem 2rem;
+  }
 
-.about-home {
-  padding: 1.5rem;
-  padding-bottom: 3rem;
-}
+  .about-home {
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+  }
 
-.about-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .about-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-h3 {
-  text-align: left;
-  margin-top: 0;
-}
+  h3 {
+    text-align: left;
+    margin-top: 0;
+  }
 
-.about-type p {
-  padding-right: 7rem;
-  font-size: 20px;
-}
+  .about-type p {
+    padding-right: 7rem;
+    font-size: 20px;
+  }
 
-.home-about-pic {
-  width: 250px;
-  height: 250px;
-  margin-bottom: 0rem;
-  margin-right: 1rem;
-  margin-top: 1rem;
-}
+  .home-about-pic {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 0rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
 
-.shop-prints-banner h2 {
-  font-size: 100px;
-}
+  .shop-prints-banner h2 {
+    font-size: 100px;
+  }
 
-.shop-stickers-banner h2 {
-  font-size: 100px;
-}
+  .shop-stickers-banner h2 {
+    font-size: 100px;
+  }
 
-.item-names {
-  font-size: 52px;
-}
+  .item-names {
+    font-size: 52px;
+  }
 
-.price {
-  font-size: 32px;
-}
+  .price {
+    font-size: 32px;
+  }
 
-.button {
-  font-size: 32px;
-}
+  .button {
+    font-size: 32px;
+  }
 
-footer {
-  padding-top: 2rem;
-}
+  footer {
+    padding-top: 2rem;
+  }
 
-label {
-  font-size: 50px;
-}
+  label {
+    font-size: 50px;
+  }
 
-.form-button {
-  font-size: 24px;
-}
+  .form-button {
+    font-size: 24px;
+  }
 
-.form-text {
-  padding-right: 4rem;
-  font-size: 16px;
-}
+  .form-text {
+    padding-right: 4rem;
+    font-size: 16px;
+  }
 
 }
-
 
 @media only screen and (min-width: 1280px) {
 
-main {
-  padding: 1rem 2rem 1rem 2rem;
-}
+  main {
+    padding: 1rem 2rem 1rem 2rem;
+  }
 
-nav ol {
-  padding: 0rem 2rem;
-}
+  nav ol {
+    padding: 0rem 2rem;
+  }
 
-.hero-banner {
-  height: 900px;
-}
+  .hero-banner {
+    height: 900px;
+  }
 
-.home-button a {
-  font-size: 128px;
-}
+  .home-button a {
+    font-size: 128px;
+  }
 
-.sticker-button {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
+  .sticker-button {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 
-.print-button {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
+  .print-button {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 
-h3 {
-  font-size: 128px;
-  padding-bottom: 2rem;
-}
+  h3 {
+    font-size: 128px;
+    padding-bottom: 2rem;
+  }
 
-.about-type p {
-  padding-right: 15rem;
-}
+  .about-type p {
+    padding-right: 15rem;
+  }
 
-.home-about-pic {
-  width: 400px;
-  height: 400px;
-  margin-right: 3.5rem;
-  margin-top: 2rem;
-}
+  .home-about-pic {
+    width: 400px;
+    height: 400px;
+    margin-right: 3.5rem;
+    margin-top: 2rem;
+  }
 
-.shop-stickers-banner {
-  padding: 150px;
-}
+  .shop-stickers-banner {
+    padding: 150px;
+  }
 
-.shop-prints-banner {
-  padding: 150px;
-}
+  .shop-prints-banner {
+    padding: 150px;
+  }
 
-.shop-grid {
-  grid-template-columns: 2fr 2fr 2fr;
-  gap: 2rem 2rem;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
-}
+  .shop-grid {
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 2rem 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
 
-.item-names {
-  margin-top: 2.5rem;
-}
+  .item-names {
+    margin-top: 2.5rem;
+  }
 
-.about-page {
-  margin: 2rem;
-}
+  .about-page {
+    margin: 2rem;
+  }
 
-.about-page h2 {
-  font-size: 128px;
-  padding-top: 2rem;
-  margin-bottom: 4rem;
-}
+  .about-page h2 {
+    font-size: 128px;
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+  }
 
-.about-page p {
-  font-size: 20px;
-}
+  .about-page p {
+    font-size: 20px;
+  }
 
-.about-page-flex {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  gap: 2rem 2rem;
-  align-items: center;
-}
+  .about-page-flex {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 2rem 2rem;
+    align-items: center;
+  }
 
-.about-page-pic {
-  padding-top: 0rem;
-}
+  .about-page-pic {
+    padding-top: 0rem;
+  }
 
+  footer {
+    padding: 2.5rem 2rem .5rem 2rem;
+  }
 
+  footer nav ol {
+    padding: 0rem;
+  }
 
-
-
-
-
-
-footer {
-  padding: 2.5rem 2rem .5rem 2rem;
-}
-
-footer nav ol {
-  padding: 0rem;
-}
-
-.form-text {
-  padding-right: 7rem;
-  font-size: 16px;
-}
-
-
-
-
-
-
-
-
-
+  .form-text {
+    padding-right: 7rem;
+    font-size: 16px;
+  }
 
 }
