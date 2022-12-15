@@ -23,7 +23,7 @@ img {
 }
 
 .logo{
-  width: 155px;
+  width: 125px;
   text-align: left;
 }
 
@@ -68,7 +68,7 @@ main {
 
 .hero-banner {
   width: 100%;
-  height: 300px;
+  height: 250px;
   background-color: #000;
   background-image: url("../assets/banner.jpg");
   background-repeat: no-repeat;
@@ -92,6 +92,7 @@ main {
   font-family: 'cheap-pine-sans', sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
 }
 
 .home-button a:hover {
@@ -101,14 +102,16 @@ main {
 
 .sticker-button {
   background-image: url("../assets/stickers.jpg");
-  padding: 100px;
+  padding-top: 75px;
+  padding-bottom: 75px;
   background-position: center center;
   background-size: cover;
 }
 
 .print-button {
   background-image: url("../assets/prints.jpg");
-  padding: 100px;
+  padding-top: 75px;
+  padding-bottom: 75px;
   background-position: center center;
   background-size: cover;
 }
@@ -266,7 +269,7 @@ h3 {
   margin: 1rem;
   background-color: #000000;
   color: #ffffff;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .about-page h2 {
@@ -405,6 +408,10 @@ footer p {
     margin-top: 1rem;
   }
 
+  .shop-stickers-banner {
+    margin-top: 135px;
+  }
+
   .shop-prints-banner h2 {
     font-size: 100px;
   }
@@ -423,6 +430,10 @@ footer p {
 
   .button {
     font-size: 32px;
+  }
+
+  .about-page {
+    margin-top: 145px;
   }
 
   footer {
@@ -490,6 +501,7 @@ footer p {
 
   .shop-stickers-banner {
     padding: 150px;
+    margin-top: 145px;
   }
 
   .shop-prints-banner {
@@ -509,6 +521,7 @@ footer p {
 
   .about-page {
     margin: 2rem;
+    margin-top: 150px;
   }
 
   .about-page h2 {
